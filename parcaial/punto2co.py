@@ -1,0 +1,11 @@
+n=int(input('Ingrese la cantidad de números fibonacci que desea ver: '))
+num=3
+a=0
+b=1
+print(f'{a}, {b}',end=', ')
+while num<=n:
+  c=a+b
+  print(c, end=', ')
+  a=b
+  b=c
+  num+=1
